@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(156, 200, 158);
+    text-align: center;
+}
+h1{
+    color: crimson;
+}
+/* p{
+    /* background-color: yellow; */
+    border: 2px solid red;
+    border-radius: 5px;
+    color: rgb(23, 12, 227);
+    padding: 20px;
+    margin: 20px;
+} */
+.First-para{
+    border: 2px solid red;
+    border-radius: 5px;
+    color: rgb(23, 12, 227);
+    padding: 20px;
+    margin: 20px;
+}
+.Second-para{
+    border: 2px solid red;
+    border-radius: 5px;
+    color: rgb(23, 12, 227);
+    padding: 20px;
+    margin: 20px;
+}
+#First-Div{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#Second-Div{
+    background-color: rgb(43, 226, 104);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* #Second-Div:hover{
+    transform:rotate(60deg);
+} */
+#Third-Div{
+     height: 200px;
+     width: 200px;
+     padding: 30px;
+     color: white;
+     text-align: center;
+     /* background-image: radial-gradient(yellow, blue); */
+     background-image: coral;
+     animation: normal;
+     animation-duration: 5s;
+     animation-name: change_color;
+}
+@keyframes change_color{
+    from{ background-color: coral;}
+    to{ background-color: blueviolet;}
+    /* from{ width: 200px;}
+    to{ width: 500px;} */
+}
+img{
+    width: 762px;
+    height: 254px;
+    position: relative;
+    padding: 30px;
+}
+
+/* div{
+    color: white;
+    width: fit-content;
+}
+#d2{
+    height: 200px;
+    width: 300px;
+    background-image: linear-gradient(to left, green, blue);
+}
+#d3{
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    background-image: coral;
+    animation: normal;
+    animation-duration: 5s;
+    animation-name: change_color;   
+}
+@keyframes change_colour{
+    from{ background-color: coral;}
+    to{ background-color: blueviolet;}
+    from{ width: 200px;}
+    to{ width: 500px;}
+} */

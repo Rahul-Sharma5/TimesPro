@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+.container{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../assets/hero1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline;
+    padding: 10px 20px;
+    list-style-type: none;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-transform: capitalize;
+}
+nav li a:hover{
+    color: black;
+    background-color: white;
+    
+}
+.title{
+    margin-top: 2%;
+    padding: 15px 30px;
+    color: blue;
+}
+.Content p{
+    color: blue;
+    margin: 10px;
+    padding: 10px 20px;
+}
+.img-Container{
+    /* background: #460dd4; */
+    /* width: 100%; */
+    padding: 14px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 400px;
+    width: 300px;
+    padding: 20px 35px;
+    background-image: url(../assets/1br-3.jpg);
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+	border: 2px;    
+}
+.card1{
+    height: 400px;
+    width: 335px;
+    padding: 20px 35px;
+    background-image: url(../assets/1br-3.jpg);
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+	border: 2px;    
+}
+.card2{
+    height: 400px;
+    width: 335px;
+    padding: 20px 35px;
+    background-image: url(../assets/1br-3.jpg);
+    background-repeat: no-repeat;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+	border: 2px;    
+}

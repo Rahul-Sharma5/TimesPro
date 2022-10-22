@@ -1,0 +1,39 @@
+p{
+    color: rgb(255, 255, 255);
+    border: 2px solid blue;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 7px;
+    position: sticky;
+    background-color: coral;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.para{
+    color: red;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+}
+#container div{
+    text-align: center;
+    height: 150px;
+    width: 25%;
+    background-color: brown;
+}
+#gridlayout{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+
+}
+
+#gridlayout div{
+    height: 100px;
+    width: 30%;
+    background-color: blueviolet;
+    color: white;
+}

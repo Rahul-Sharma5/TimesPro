@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+
+  <body>
+    
+    <!-- <table>
+    <caption>Student Record</caption>
+    <thead>
+    <tr>
+        <th>
+            Name
+        </th>
+
+        <th>
+            Roll
+        </th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>
+            Rahul
+        </td>
+        <td>
+            01
+        </td>
+    </tr>
+    <br>
+    <tr>
+        <td>
+            Aniket
+        </td>
+        <td>
+            02
+        </td>
+    </tr>
+    <br>
+    <tr>
+        <td>
+            Satyajeet
+        </td>
+        <td>
+            03
+        </td>
+    </tr>
+</tbody>
+</table> -->
+
+    <h4>Registration Form</h4>
+    <form action="/action.php">
+      <input type="text" placeholder="User name" />
+      <br />
+      <input type="password" placeholder="Enter password" />
+      <br />
+      <h4>Choose Your Class</h4>
+      <label for="101">
+        <input type="radio" value="class X" name="class" id="101" />Class X
+      </label>
+      <br />
+      <label for="102">
+        <input type="radio" value="class XII" name="class" id="102" />Class XII
+      </label>
+      <br />
+      <h4>Choose Your Subjects</h4>
+
+      <label for="Physics">
+        <input type="checkbox" value="Physics" name="Subjects"id="101"/>Physics
+      </label>
+
+      <label for="Chemistry">
+        <input type="checkbox" value="Chemistry" name="Subjects" id="102"/>Chemistry
+      </label>
+
+      <label for="Maths">
+        <input type="checkbox" value="Maths" name="Subjects" id="103" />Maths
+      </label>
+
+      <br /><br />
+      Select your City
+      <select name="City" id="city">
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Pune">Pune</option>
+      </select>
+      <br /><br />
+      <textarea
+        name="feedback"
+        id="101"
+        placeholder="please give your valuable feedback here"
+        rows="5"
+      ></textarea>
+      <br /><br />
+      <input type="submit" value="submit" />
+    </form>
+    <br />
+  </body>
+</html>

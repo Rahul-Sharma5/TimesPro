@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Js</title>
+</head>
+<script>
+    class hello{   // Class
+        message(){ // Methods
+            console.log("Hello Everyone");
+        }
+
+        sorry(){  //2nd Methods / Prototype Method
+            console.log("Sorry Everyone");
+        }
+    }
+
+    let a = new hello(); // where a is object
+
+    a.message();
+    a.sorry();
+
+  // "Old" Constructor Methods
+
+//   class student{
+//     constructor(){
+//         let name;
+//         console.log("constructor Function")
+//     }
+//     hello(){
+//         console.log("Hello " + this.name)
+//     }
+//   }
+
+//   let b = new student();
+
+//   b.name = "Rahul Sharma";
+//   b.hello();
+
+
+
+  // "New" Constructor Methods 2 Represent
+
+  class student{
+    constructor(name, age){
+
+        this.studentname = name;
+        this.studentage = age;
+        console.log("constructor Function");
+
+    }
+
+    hello(){ // Prototype Methods
+
+        // console.log("Hello " + this.studentname + " Your age is " + this.studentage);
+
+        console.log(`Hello ${this.studentname} Your age is ${this.studentage}`);
+    }
+
+    static staticMethod(){
+        console.log("static Function");
+    }
+
+  }
+
+  let b = new student("Rahul Sharma", 25);
+  let c = new student("Aniket Kumar", 26);
+
+  b.hello();
+  c.hello();
+  student.staticMethod();
+
+</script>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+
+</head>
+<body>
+    <P id="para"></P>
+    <h1>Welcome to 1st javascript</h1>
+
+    <script>
+        alert('welcome to the page');
+        console.log("Debugging here");
+        document.write("<h2>Document write display content here.</h2>");
+        // variable var
+        var a = 5;
+        console.log('value of a is: '+a);
+
+        a = "Rahul"
+        console.log('value of a is: '+a);
+
+        // variable let
+        let b = 10;
+        console.log('value of a is: '+b);
+
+        // variable const
+        const c = 70;
+        console.log('value of a is: '+c);
+
+        document.getElementById('para').innerHTML="Aniket";
+
+        let num = 90;
+        num=true;
+        let number;  // value of number will be undefine
+
+        let arr = [12, 14, 58, 58];
+        console.log("First arry element is: "+arr[0]);
+
+        var person = {name:"Rahul Sharma", age:23, degree:"MCA"};
+
+        var person2 = {name:"Aniket Sharma", age:26, degree:"MCA"};
+        
+        console.log("person name is: "+person.name);
+
+        // Operator
+        let X=90, Y=30, Z=89;
+        console.log("Addition is x+y: "+(X+Y));  
+
+        console.log("The vlue of x: "+(++X)); // pre-increment
+
+        console.log("The vlue of x: "+(X++)); // post-increment
+
+        //Assigment Operator
+        console.log("<br> change value of X is: "+(X**=10));
+
+        // Conditional Operator
+
+        if(X>Y){
+            console.log("x is greater than y");
+        } else{
+              console.log("x is less than y");
+        }
+
+        // for Loop
+
+        // for(let i=0; i<4; i++){
+        //     // instruction
+        //     // arr[0] arr[i]
+        //     console.log(+arr[i]);
+        // }
+        
+        // // While Loop
+        // let j=0;
+        // while(j<4)
+        // {
+        //     console.log("value of j : "+j);
+        //     j++;
+        // }
+
+        // // do while Loop
+        // do{
+        //     console.log(+j);
+        //     j++
+        // }
+        // while(j<4);
+
+        // Logical operator && || !
+        // x=8100 y=100 z=120
+        if(X>Y && X>Z)
+        {
+          console.log("X is the greates");
+        }
+        else{
+            console.log("X is not the greates number"); 
+        }
+
+        //var person = {name:"Rahul Sharma", age:23, degree:"MCA"};
+
+        for(const key in person){
+            console.log(person[key]);
+        }
+
+    //   function
+
+    let car = {color: 'white', wheels: 4, speed: '120kmph'};
+    document.write(car.color);
+    document.write("<br>"+ car.speed);
+
+    </script>
+    
+</body>
+</html>

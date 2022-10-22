@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="./scope.js"></script> -->
+    <!-- <script src="./functions.js"></script> -->
+    <script>
+        function change(){
+            var a = document.getElementById('div1').innerHTML;
+            document.getElementById('demo').innerHTML=a;
+        }
+        function changecolor(){
+            document.getElementById('demo').style.backgroundColor="green";
+            document.getElementById('demo').style.border="12px black solid";
+        }
+        function changebg(){
+            var element = document.getElementsByClassName('parademo');element[0].innerHTML="Element by class name";
+        }
+    </script>
+</head>
+<body>
+        <div id="div1">
+           <h1>Welcome to the Js class</h1>
+        </div>
+           <p id="demo" ondblclick="changecolor()"></p>
+           <p class="parademo" onclick="changebg()"> Plain element</p>
+           <input type="button" value="Click me" onclick="change()">
+    
+</body>
+</html>

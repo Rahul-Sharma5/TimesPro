@@ -1,0 +1,25 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    }
+div h1 {
+    color: brown;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    
+}
+
+nav a{
+    padding: auto;
+    margin: 14px;
+    text-decoration: none;
+}
+p img {
+    width: 178px;
+    height: 60px;
+
+}

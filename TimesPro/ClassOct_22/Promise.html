@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise Plugin</title>
+
+    <!-- <script src="./promise.js"></script> -->
+    <!--  <script src="./testapi.js"></script> -->
+    <script src="./arrayClass.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</head>
+<body>
+    <p id="para">Happy Diwali everyone</p>
+    <p>I enjoy this diwali</p>
+    <div id="demo"></div>
+    
+    <input type="button" onclick="display()" value="click">
+    <script>
+        // content = document.getElementById('demo').innerHTML="welcome";
+        function display(){
+            let paragraph =$("p");
+            console.log(paragraph);
+            let div = $("div");
+            div[0].textContent = paragraph[0].textContent;
+        }
+    </script>
+
+    <details>Happy Diwali</details>
+
+  <div id="matrix"></div>
+
+
+<script src="./multiDarray.js"></script>
+
+</body>
+</html>
